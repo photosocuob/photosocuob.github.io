@@ -1,0 +1,21 @@
+<header class="masthead">
+    <div class="masthead-title">
+        <a href="{{ '/' | relative_url }}" title="Home"><img src="/assets/logo.png" class="nav-img" alt="logo"> {{ site.title }}</a>
+        <small class="tagline">{{ site.tagline }}</small>
+        <img src="/assets/guild-logo.jpg" class="nav-img" id="guild-logo">
+    </div>
+
+    {% if site.data.navigation %}
+    <nav class="nav">
+        <ul class="nav-list">
+            {% for item in site.data.navigation %}
+            <li class="nav-item">
+                <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}current{% endif %}">
+                    {{ item.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+</header>
