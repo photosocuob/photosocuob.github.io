@@ -1,6 +1,6 @@
 # PhotoSoc Website
 
-## Running the webserver
+## Running locally
 `bundle exec jekyll serve`
 
 ## Jekyll theme
