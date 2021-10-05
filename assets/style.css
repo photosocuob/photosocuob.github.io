@@ -12,3 +12,40 @@
 #guild-logo {
     float: right;
 }
+
+.card {
+    border-radius: 10px;
+    padding: .5em;
+}
+
+.committee-card-header {
+    margin: 0 0 1em 0;
+}
+
+.committee-image {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100%;
+    margin: 0;
+}
+
+.committee-name {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+.committee-pos {
+    font-size: 25px;
+    font-weight: 500;
+    color: grey;
+    margin-left: 1em;
+}
+
+.instagram {
+    color: #833AB4;
+}
+
+.instagram:hover {
+    color: #C13584;
+}
