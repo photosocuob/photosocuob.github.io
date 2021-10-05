@@ -15,7 +15,11 @@
 
 .card {
     border-radius: 10px;
-    padding: 0;
+    padding: .5em;
+}
+
+.committee-card-header {
+    margin: 0 0 1em 0;
 }
 
 .committee-image {
@@ -26,14 +30,16 @@
 }
 
 .committee-name {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 1em;
 }
 
 .committee-pos {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     color: grey;
+    margin-left: 1em;
 }
 
 .instagram {
