@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<h1>Committee</h1>
+
+<div class="posts">
+    {% assign members = site.data.committee.members %}
+    {% for member in members %}
+        <div class="post">
+            <div class="d-flex flex-row align-items-center committee-card-header">
+                <img src="{{ member.profile_pic }}" class="committee-image" alt="Profile Picture">
+                <text class="committee-name">{{ member.name }}</text>
+                <text class="committee-pos">{{ member.position }}</text>
+            </div>
+            <p>{{ member.description }}</p>
+            <p>📸 {{ member.camera }}</p>
+            <a href="{{ member.instagram_url }}"><i class="fab fa-instagram"></i> {{ member.instagram_handle }}</a>
+        </div>
+    {% endfor %}
+</div>
