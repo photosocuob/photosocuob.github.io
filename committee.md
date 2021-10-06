@@ -1,3 +1,4 @@
 ---
 layout: committee
+title: Committee
 ---
