@@ -40,3 +40,12 @@
     color: grey;
     margin-left: 1em;
 }
+
+.carousel-link {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+    }
+}
