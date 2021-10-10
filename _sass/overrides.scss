@@ -73,3 +73,12 @@
 #flickr_link {
     background-color: #0063DC;
 }
+  
+.carousel-link {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+    }
+}
