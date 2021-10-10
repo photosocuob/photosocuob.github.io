@@ -17,6 +17,24 @@
     margin-bottom: var(--spacer);
 }
 
+#home-carousel {
+    height: 375px;
+    max-width: 500px;
+    margin: 0 auto;
+    .carousel-inner {
+        max-width: 500px;
+    }
+}
+
+#home-carousel-description {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 .committee-card-header {
     margin-bottom: 1em;
 }
