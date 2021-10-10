@@ -4,41 +4,58 @@ title: About
 permalink: /about/
 ---
 
-PhotoSoc is open to all students of any level of ability or equipment - all you need is an interest in photography!
+<img src="/assets/about.jpg" alt="..." id="about-img">
 
-Membership is £6 for the academic year, which provides:
+## Who are we?
 
-- Access to our Darkroom and Digital Editing Suite
+We are the University of Birmingham's Photography Society. In other words, if you have any interest in photography, we're the place
+for you!
 
-- Free access to events and workshops (such as Mobile Photography, Darkroom and Film Developing, and our ever popular Studio Workshop!)
+## What do we do?
 
-- Ability to join our photography competitions
+* Photography trips such as:
+  * Cannon Hill Park
+  * Lickey Hills Country Park
+  * Birmingham (including nighttime and Digbeth)
+* Socials 🍻
+* Workshops such as:
+  * Mobile Photography
+  * How to use our darkroom (yes, we have one 🤯) and film developing
+  * Studio Photography (this one's really fun!)
+* Photography Competitions on Instagram. Tag us using [#photosocuob](https://www.instagram.com/explore/tags/photosocuob/)
 
-- Ability to join us on trips/outings, predominantly around Birmingham, such as Cannon Hill Park.
+## How do I join?
 
-- Ability to hire society equipment, including film cameras, DSLRs and studio lighting (email to rent)
+Membership costs **£6** for the entire academic year—a bargain!
 
-- Ability sign-up to our Events Team (email/DM on Instagram to join)
+Becoming a member gives you access to:
 
-President: Toby Fenton
-Vice-President: TBC
-Secretary: Robert Leonard
-Treasurer: TBC*
-Equipment Officer: TBC*
-Sessions Coordinator: TBC
-Marketing Officer: TBC*
-Events Team Manager: TBC
+1. our very own darkroom in the underground floor of the Guild;
+2. entering our photography competitions on Instagram;
+3. hiring society equipment—including film cameras, DSLRs, studio lighting, and more (email to rent);
+4. access to all our events;
+5. the ability to sign up for our Events Team (email/DM on Instagram to join).
 
-* We will be looking to fill these roles specifically at an Extraordinary General Meeting (EGM), in Week 2/3 of term, so if you're interested, please don't hesitate to contact us about whichever committee roles you are interested in!
+## Follow us
 
-This is the Facebook group for paid members of the society, to keep up-to-date with events and workshops! If you want to join the group/society, please go to the guild of students website and buy membership there:
-https://www.guildofstudents.com/studentgroups/societies/photosoc/
+<div class="d-flex flex-row flex-wrap mt-3 mb-3">
+<div class="p-2"><a href="https://www.instagram.com/photosocuob" class="social-link" id="instagram-link"><i class="fab fa-instagram"></i> Instagram</a></div>
+  <div class="p-2"><a href="https://www.facebook.com/photosocuob" class="social-link" id="facebook-link"><i class="fab fa-facebook"></i> Facebook</a></div>
+  <div class="p-2"><a href="https://www.twitter.com/photosocuob" class="social-link" id="twitter-link"><i class="fab fa-twitter"></i> Twitter</a></div>
+  <div class="p-2"><a href="https://www.flickr.com/groups/photosoc/" class="social-link" id="flickr_link"><i class="fab fa-flickr"></i> Flickr</a></div>
+</div>
 
-Facebook Page: https://www.facebook.com/photosocuob
-Facebook Group: https://www.facebook.com/groups/369263301439269
-Twitter: https://twitter.com/photosocuob (@photosocuob)
-Instagram: https://www.instagram.com/photosocuob/ @photosocuob
-Flickr: www.flickr.com/groups/photosoc/
-Email: photosoc@guild.bham.ac.uk
+We mainly use Instagram and Facebook so definitely give us a follow on both!
 
-If you are looking for photographers to cover an event you are organising then please send a message to the above email address. Thank you.
+Make sure to tag us on Instagram using [#photosocuob](https://www.instagram.com/explore/tags/photosocuob/).
+
+## Get in touch
+
+Looking for a photographer for one of your events?
+
+Have a question or query?
+
+Feel free to get in touch with us at the following email address:
+
+[photosoc@guild.bham.ac.uk](mailto:photosocuob@guild.bham.ac.uk)
+
