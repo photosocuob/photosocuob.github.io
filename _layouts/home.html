@@ -6,11 +6,13 @@ layout: default
 <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     {% assign images = site.data.home-images %}
+    {% assign flag = true %}
     {% for image in images %}
-    {% if image.active %}
+    {% if flag %}
     <div class="carousel-item active">
       <img src="{{ image.url }}" class="d-block w-100" alt="birmingham">
     </div>
+    {% assign flag = false %}
     {% else %}
     <div class="carousel-item">
       <img src="{{ image.url }}" class="d-block w-100" alt="birmingham">
