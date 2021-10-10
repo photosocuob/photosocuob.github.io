@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/about.jpg" alt="..." id="about-img">
-
 ## Who are we?
 
 We are the University of Birmingham's Photography Society. In other words, if you have any interest in photography, we're the place
