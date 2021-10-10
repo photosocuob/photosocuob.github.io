@@ -41,6 +41,39 @@
     margin-left: 1em;
 }
 
+#about-img {
+    max-width: 500px;
+    //margin: 0 auto;
+}
+
+.social-link {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#facebook-link {
+    background-color: #1778F2;
+}
+
+#instagram-link {
+    background-color: #C13584;
+}
+
+#twitter-link {
+    background-color: #1DA1F2;
+}
+
+#flickr_link {
+    background-color: #0063DC;
+}
+  
 .carousel-link {
     color: white;
     text-decoration: none;
