@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<p id="home-carousel-description">Celebrating Birmingham ❤️</p>
+<div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% assign images = site.data.home-images %}
+    {% assign flag = true %}
+    {% for image in images %}
+    {% if flag %}
+    <div class="carousel-item active">
+      <img src="{{ image.url }}" class="d-block w-100" alt="birmingham">
+    </div>
+    {% assign flag = false %}
+    {% else %}
+    <div class="carousel-item">
+      <img src="{{ image.url }}" class="d-block w-100" alt="birmingham">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="posts mt-4">
+  {% assign posts = site.posts %}
+  {% if paginator %}
+  {% assign posts = paginator.posts %}
+  {% endif %}
+  {% for post in posts %}
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
+
+    <p class="post-excerpt">
+      {% if post.description %}
+      {{ post.description | strip_html }}
+      {% else %}
+      {{ post.excerpt | strip_html }}
+      {% endif %}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+{% if paginator %}
+<div class="pagination">
+  {% if paginator.next_page %}
+  <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+  {% else %}
+  <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+  <a class="pagination-item newer" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
+  {% else %}
+  <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+{% endif %}
