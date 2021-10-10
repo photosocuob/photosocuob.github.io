@@ -1,0 +1,14 @@
+images:
+  - url: "/assets/gallery/img1.jpg"
+    instagram_handle: "jontyrudman"
+    is_active: True # need this flag for the first image in the carousel
+  - url: "/assets/gallery/img2.jpeg"
+    instagram_handle: "gsbaker_"
+  - url: "/assets/gallery/img3.jpeg"
+    instagram_handle: "gsbaker_"
+  - url: "/assets/gallery/img4.jpeg"
+    instagram_handle: "gsbaker_"
+  - url: "/assets/gallery/img5.jpeg"
+    instagram_handle: "gsbaker_"
+  - url: "/assets/gallery/img6.jpeg"
+    instagram_handle: "gsbaker_"
