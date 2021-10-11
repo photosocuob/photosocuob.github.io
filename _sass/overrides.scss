@@ -1,3 +1,16 @@
+#egm-promo {
+    text-align: center;
+    color: gray;
+    img {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+#egm-promo-link:hover {
+    text-decoration: none;
+}
+
 .nav-list {
     width: 100%;
     margin-top: 0px;
