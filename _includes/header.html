@@ -2,7 +2,9 @@
     <div class="masthead-title">
         <a href="{{ '/' | relative_url }}" title="Home"><img src="/assets/logo.png" class="nav-img" alt="logo"> {{ site.title }}</a>
         <small class="tagline">{{ site.tagline }}</small>
-        <img src="/assets/guild-logo.jpg" class="nav-img" id="guild-logo">
+        <a href="https://www.guildofstudents.com/studentgroups/societies/photosoc/">
+            <img src="/assets/guild-logo.png" class="nav-img" id="guild-logo">
+        </a>
     </div>
 
     {% if site.data.navigation %}
@@ -10,7 +12,7 @@
         <ul class="nav-list">
             {% for item in site.data.navigation %}
             <li class="nav-item">
-                <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}current{% endif %}">
+                <a href="{{ item.url | relative_url }}">
                     {{ item.title }}
                 </a>
             </li>
