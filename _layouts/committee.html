@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /committee/
 ---
 
 <div class="posts">
@@ -11,9 +12,17 @@ layout: page
                 <text class="committee-name">{{ member.name }}</text>
                 <text class="committee-pos">{{ member.position }}</text>
             </div>
-            <p>{{ member.description }}</p>
+            <blockquote>What do you do on the committee?</blockquote>
+            <p>{{ member.role_description }}</p>
+            <blockquote>What do you study?</blockquote>
+            <p>{{ member.subject }}</p>
+            <blockquote>What kind of photography do you like?</blockquote>
+            <p>{{ member.favourite_photography }}</p>
+            <blockquote>If you could photograph anyone—past or present—who would it be?</blockquote>
+            <p>{{ member.dream_subject }}</p>
+            <hr>
             <p>📸 {{ member.camera }}</p>
-            <a href="{{ member.instagram_url }}"><i class="fab fa-instagram"></i> {{ member.instagram_handle }}</a>
+            <a href="https://www.instagram.com/{{ member.instagram_handle }}"><i class="fab fa-instagram"></i> @{{ member.instagram_handle }}</a>
         </div>
     {% endfor %}
 </div>
