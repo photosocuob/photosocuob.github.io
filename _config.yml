@@ -24,7 +24,7 @@ author:
   name: PhotoSoc
 
 # Build settings
-theme: monophase
+# theme: monophase
 remote_theme: zivhub/monophase
 plugins:
   - jekyll-feed
