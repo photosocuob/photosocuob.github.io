@@ -18,8 +18,14 @@ members:
     camera: "Canon 1200d"
     instagram_handle: "tobyfenton2"
   - name: "Robert Leonard"
-    profile_pic: "/assets/committee/user.png"
+    profile_pic: "/assets/committee/leo.jpg"
     position: "Secretary"
+    role_description: >
+      My role is to take minutes at meetings, help organise events, and book the rooms we need.
+    subject: "Computer Science (currently industrial placement)"
+    favourite_photography:
+      I photograph a lot of subjects, from boudoir to sport events, but nature photography is my favourite.
+    camera: Canon 750D
     instagram_handle: "roby.toby"
   - name: "Jonty Rudman"
     profile_pic: "/assets/committee/jonty.jpeg"
