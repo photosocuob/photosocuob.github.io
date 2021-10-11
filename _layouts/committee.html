@@ -7,12 +7,12 @@ permalink: /committee/
     {% assign members = site.data.committee.members %}
     {% for member in members %}
         <div class="post">
-            <div class="d-flex flex-row align-items-center committee-card-header">
-                <img src="{{ member.profile_pic }}" class="committee-image" alt="Profile Picture">
-                <text class="committee-name">{{ member.name }}</text>
-                <text class="committee-pos">{{ member.position }}</text>
+            <div class="d-flex flex-row flex-wrap align-items-center committee-card-header">
+                <img src="{{ member.profile_pic }}" class="committee-image p-3" alt="Profile Picture">
+                <text class="committee-name p-2">{{ member.name }}</text>
+                <text class="committee-pos p-2">{{ member.position }}</text>
             </div>
-            <blockquote>What do you do on the committee?</blockquote>
+            <blockquote>What's your role on the committee?</blockquote>
             <p>{{ member.role_description }}</p>
             <blockquote>What do you study?</blockquote>
             <p>{{ member.subject }}</p>
