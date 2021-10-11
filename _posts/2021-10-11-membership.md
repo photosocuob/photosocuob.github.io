@@ -5,7 +5,7 @@ title: Why should I become a member?
 
 Membership is only **£6** for the entire academic year.
 
-![](/assets/post-images/photosoc-membership-card.png)
+![](/assets/post-images/photosoc-business-card.jpg)
 
 Things you can do with a PhotoSoc membership:
 
