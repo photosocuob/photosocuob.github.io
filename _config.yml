@@ -25,6 +25,7 @@ author:
 
 # Build settings
 theme: monophase
+remote_theme: zivhub/monophase
 plugins:
   - jekyll-feed
 
