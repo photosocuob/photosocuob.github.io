@@ -1,6 +1,6 @@
 .nav-list {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .nav-img {
@@ -11,6 +11,20 @@
 
 #guild-logo {
     float: right;
+}
+
+#guild-nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+
+    a {
+        color: #5BBAA2;
+    }
+
+    img {
+        margin: 0;
+    }
 }
 
 .masthead {
