@@ -38,15 +38,10 @@ layout: default
   {% assign posts = paginator.posts %}
   {% endif %}
   {% for post in posts %}
+  <a href="{{ post.url | relative_url }}" class="post-link">
   <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
+    <h2 class="post-title">{{ post.title }}</h2>
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
-
     <p class="post-excerpt">
       {% if post.description %}
       {{ post.description | strip_html }}
@@ -55,6 +50,7 @@ layout: default
       {% endif %}
     </p>
   </div>
+  </a>
   {% endfor %}
 </div>
 
