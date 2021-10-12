@@ -22,22 +22,9 @@
     display: inline;
 }
 
-#guild-logo {
-    float: right;
-}
-
-#guild-nav {
-    float: right;
-    margin: 0;
+#navbar {
     padding: 0;
-
-    a {
-        color: #5BBAA2;
-    }
-
-    img {
-        margin: 0;
-    }
+    font-weight: bold;
 }
 
 .masthead {
