@@ -8,12 +8,6 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
-    .tagline {
-        display: none;
-    }
-}
-
 #egm-promo-link:hover {
     text-decoration: none;
 }
@@ -32,6 +26,37 @@
 #navbar {
     padding: 0;
     font-weight: bold;
+    display: block;
+    float: right;
+    margin-top: .5rem;
+    max-height: 0;
+
+    @media only screen and (min-width: 991px) {
+        display: initial;
+        float: none;
+        margin: auto;
+    }
+
+    .navbar-collapse.collapse.show {
+        padding: 0px 0.5em;
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        margin-top: 0.5em;
+        background-color: var(--body-bg-color);
+
+        @media only screen and (min-width: 991px) {
+            margin: auto;
+            border: 0;
+        }
+    }
+
+    .navbar-collapse.collapsing {
+        @extend .navbar-collapse.collapse.show;
+    }
+
+    .navbar-toggler-container {
+        text-align: right;
+    }
 }
 
 .post-link:hover {
@@ -54,6 +79,14 @@
 
 .masthead {
     margin-bottom: var(--spacer);
+}
+
+.masthead-title {
+    display: inline-block;
+
+    @media only screen and (min-width: 991px) {
+        display: initial;
+    }
 }
 
 #home-carousel {
@@ -134,5 +167,12 @@
 
     &:hover {
         color: white;
+    }
+}
+
+.tagline {
+    display: none;
+    @media only screen and (min-width: $md-screen) {
+        display: initial;
     }
 }
