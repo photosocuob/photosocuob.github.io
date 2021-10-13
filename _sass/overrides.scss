@@ -8,12 +8,6 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
-    .tagline {
-        display: none;
-    }
-}
-
 #egm-promo-link:hover {
     text-decoration: none;
 }
@@ -134,5 +128,12 @@
 
     &:hover {
         color: white;
+    }
+}
+
+.tagline {
+    display: none;
+    @media only screen and (min-width: $md-screen) {
+        display: initial;
     }
 }
