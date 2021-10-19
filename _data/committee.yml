@@ -3,9 +3,8 @@ members:
     profile_pic: "/assets/committee/toby.jpg"
     position: "President"
     role_description: >
-      As President, I am responsible for representing the  society at events and for running the society's various
-      event/workshops/trips.
-    subject: "MA in Byzantine Studies, now into my 4th year at UoB"
+      I'm responsible for representing the society at external events and for running our events, workshops, and trips.
+    subject: "MA in Byzantine Studies (4th year)"
     favourite_photography: >
       I've always been into landscapes, but I've been doing more sports photography over the past 2.5 years. I've taken
       a lot of photos at Warwickshire cricket matches this season, as well as uni rugby matches during my time here;
@@ -17,36 +16,97 @@ members:
       Basilica of San Vitale in Ravenna.
     camera: "Canon 1200d"
     instagram_handle: "tobyfenton2"
+  - name: "Fatima Zahra"
+    profile_pic: "/assets/committee/zahra.jpeg"
+    position: "Vice-President"
+    role_description: >
+      I’m Vice-President! Meaning I assist the president and other members of the committee where possible. I think of it as being like a chameleon. 
+    subject: "Electrical and Electronic Engineering (second year)"
+    favourite_photography: >
+      Landscape photography – from mountains and forests to beaches and lakes – will always be my favourite, but lately I’ve been getting into photographing people and
+      animals candidly as well. I’ve also been quite interested in learning astrophotography for a while but alas, the sky visibility of urban areas is against me in that
+      venture. 
+    dream_subject: >
+      Might be an unconventional response but I’d like to photograph my grandmother! She died before I had the chance to so I think it would be cool to do so. 
+    camera: "Fuji X-T1"
+    instagram_handle: "f.zahra321"
   - name: "Robert Leonard"
     profile_pic: "/assets/committee/leo.jpg"
     position: "Secretary"
     role_description: >
       My role is to take minutes at meetings, help organise events, and book the rooms we need.
-    subject: "Computer Science (currently industrial placement)"
+    subject: "Computer Science (3rd year—currently industrial placement)"
     favourite_photography:
       I photograph a lot of subjects, from boudoir to sport events, but nature photography is my favourite.
     dream_subject: "Jason Statham"
     camera: Canon 750D
     instagram_handle: "roby.toby"
+  - name: "Iyassou Shimels"
+    profile_pic: "/assets/committee/iyassou.jpeg"
+    position: "Treasurer"
+    role_description: >
+      I'm the treasurer. My responsibilities consist of managing the finances of the society, so budgeting and liaising with the Guild on all matters cash money.
+    subject: "MSci Mathematics and Computer Science (4th year)"
+    favourite_photography:
+      I'm a budding photographer, and so far my first love is architecture photography
+    dream_subject: "I'd love to have taken a proper portrait of my grandmother"
   - name: "Jonty Rudman"
     profile_pic: "/assets/committee/jonty.jpeg"
-    position: "Acting Equipment Officer"
+    position: "Equipment Officer"
     role_description: >
-      Helping out on the committee until the EGM. One of the contributors to this website.
-    subject: "Computer Science, 4th year"
+      My role is to look after the equipment and darkroom, and loan them out to members of the society. I also help run
+      this website!
+    subject: "Computer Science (4th year)"
     favourite_photography: "Street photography and landscapes!"
     dream_subject: "Colin Firth"
     camera: "Fujifilm X-Pro2"
     instagram_handle: "jontyrudman"
   - name: "George Baker"
     profile_pic: "/assets/committee/george.jpeg"
-    position: "Acting Marketing Officer"
+    position: "Marketing Officer"
     role_description: >
-      Helping out on the committee until the EGM. One of the contributors to this website.
-    subject: "3rd year computer science"
+      Marketing our events, encouraging people to join the society, managing our social media accounts, and
+      developing this website.
+    subject: "Computer Science (3rd year)"
     favourite_photography: >
       I love portraits!
     dream_subject: >
-      Roger Federer. Such a suave, cool, and lovely guy.
+      Roger Federer
     camera: "Canon 200D"
     instagram_handle: "gsbaker_"
+  - name: "Hyeonju Lee"
+    profile_pic: "/assets/committee/hyeonju.jpeg"
+    position: "Marketing Officer"
+    role_description: >
+        I promote our society and events and manage social media. I also respond to any questions about
+        our society.
+    subject: "Business Management with Marketing (2nd year)"
+    favourite_photography: "I love taking photos of the scenery (especially the sky) and portraits!"
+    dream_subject: "All the people I love! I want to capture their most beautiful and natural moments."
+    camera: "Canon 200D Mark 2"
+    instagram_handle: "2hyeon_ju56"
+  - name: "Chelsea Tiso"
+    profile_pic: "/assets/committee/chelsea.jpeg"
+    position: "Events Team Manager"
+    role_description: >
+      I manage the team’s email and facebook page to advertise photography opportunities for our members. I’m also
+      available to answer any questions members might have about these opportunities.
+    subject: "LLB Law (1st year)"
+    favourite_photography: "I love live event photography, especially live music events"
+    dream_subject: "Kim Taehyung"
+    camera: "Canon 650D"
+    instagram_handle: "chels.naps"
+  - name: "Thomas Thory-Rao"
+    position: "Workshops Coordinator"
+    profile_pic: "/assets/committee/thomas.jpeg"
+    role_description: >
+      I’m the workshops officer which means that I organise and run workshops and trips for the society’s members to
+      help us all learn new skills, techniques, and try out areas of photography new to us.
+    subject: "Physics (2nd year)"
+    favourite_photography: >
+      Mostly landscapes, especially at night so some crossover with astro. Have done some sports (car and motorbike
+      racing) photography recently too, and I like to try and get pictures of the wildlife along the river where I
+      live at home. I shoot some film as well.
+    dream_subject: "Hamilcar Barca"
+    camera: "Canon 5D (mk1) and a Canon A1"
+    instagram_handle: "thomas.thoryrao"
