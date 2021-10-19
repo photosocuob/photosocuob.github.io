@@ -8,5 +8,7 @@
   url: /committee/
 - title: Join
   url: https://www.guildofstudents.com/studentgroups/societies/photosoc/
+  new_tab: true
 - title: Instagram
   url: https://www.instagram.com/photosocuob/
+  new_tab: true

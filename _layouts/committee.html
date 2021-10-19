@@ -8,7 +8,11 @@ permalink: /committee/
     {% for member in members %}
         <div class="post">
             <div class="d-flex flex-row flex-wrap align-items-center committee-card-header">
+                {% if member.profile_pic %}
                 <img src="{{ member.profile_pic }}" class="committee-image p-3" alt="Profile Picture">
+                {% else %}
+                <img src="/assets/committee/user.png" class="committee-image p-3" alt="Profile Picture">
+                {% endif %}
                 <text class="committee-name p-2">{{ member.name }}</text>
                 <text class="committee-pos p-2">{{ member.position }}</text>
             </div>
@@ -20,9 +24,15 @@ permalink: /committee/
             <p>{{ member.favourite_photography }}</p>
             <blockquote>If you could photograph anyone—past or present—who would it be?</blockquote>
             <p>{{ member.dream_subject }}</p>
+            {% if member.camera or member.instagram_handle %}
             <hr>
+            {% endif %}
+            {% if member.camera %}
             <p>📸 {{ member.camera }}</p>
-            <a href="https://www.instagram.com/{{ member.instagram_handle }}"><i class="fab fa-instagram"></i> @{{ member.instagram_handle }}</a>
+            {% endif %}
+            {% if member.instagram_handle %}
+            <a href="https://www.instagram.com/{{ member.instagram_handle }}" target="_blank"><i class="fab fa-instagram"></i> @{{ member.instagram_handle }}</a>
+            {% endif %}
         </div>
     {% endfor %}
 </div>
