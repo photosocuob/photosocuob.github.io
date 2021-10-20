@@ -2,13 +2,24 @@
 layout: default
 ---
 
-<a href="/2021/10/19/cannon-hill" id="egm-promo-link">
-<div class="mb-4" id="index-promo">
-  <h4>Cannon Hill Park Autumn Photography</h4>
-  <p>Sunday 31st October 13:00</p>
-  <img src="/assets/post-images/cannon-hill-park.png">
-</div>
+{% assign events = site.data.promo.events %}
+{% for event in events %}
+{% if event.post_url %}
+<a href="{{ event.post_url }}">
+  <div class="mb-4" id="index-promo">
+    <h4>{{ event.title }}</h4>
+    <p>{{ event.date }} {{ event.time }}</p>
+    <img src="/assets/event-posters/{{ event.poster }}">
+  </div>
 </a>
+{% else %}
+<div class="mb-4" id="index-promo">
+  <h4>{{ event.title }}</h4>
+  <p>{{ event.date }} — {{ event.time }}</p>
+  <img src="/assets/event-posters/{{ event.poster }}">
+</div>
+{% endif %}
+{% endfor %}
 
 <hr>
 
