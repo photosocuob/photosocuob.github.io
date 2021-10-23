@@ -2,13 +2,24 @@
 layout: default
 ---
 
-<a href="/2021/10/11/egm" id="egm-promo-link">
-<div id="egm-promo" class="mb-4">
-  <h4>Intro to PhotoSoc + EGM</h4>
-  <p>Thursday 14th October 18:15</p>
-  <img id="egm-poster" src="/assets/post-images/egm-web-version.png">
-</div>
+{% assign events = site.data.promo.events %}
+{% for event in events %}
+{% if event.post_url %}
+<a href="{{ event.post_url }}">
+  <div class="mb-4" id="index-promo">
+    <h4>{{ event.title }}</h4>
+    <p>{{ event.date }} {{ event.time }}</p>
+    <img src="/assets/event-posters/{{ event.poster }}">
+  </div>
 </a>
+{% else %}
+<div class="mb-4" id="index-promo">
+  <h4>{{ event.title }}</h4>
+  <p>{{ event.date }} — {{ event.time }}</p>
+  <img src="/assets/event-posters/{{ event.poster }}">
+</div>
+{% endif %}
+{% endfor %}
 
 <hr>
 

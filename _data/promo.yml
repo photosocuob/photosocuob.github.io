@@ -1,0 +1,6 @@
+events:
+  - title: "Cannon Hill Park Autumn Photography"
+    date: "Sun 31st Oct"
+    time: "13:00"
+    poster: "cannon-hill-park.png" # expect to be in /assets/event-posters/
+    post_url: "2021/10/19/cannon-hill"
