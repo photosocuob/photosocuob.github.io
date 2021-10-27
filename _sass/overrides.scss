@@ -51,7 +51,7 @@
     }
 
     .navbar-collapse.collapsing {
-        @extend .navbar-collapse.collapse.show;
+        @extend .navbar-collapse, .collapse, .show;
     }
 
     .navbar-toggler-container {
