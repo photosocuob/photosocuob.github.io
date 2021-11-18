@@ -6,6 +6,8 @@
   url: /gallery/
 - title: Committee
   url: /committee/
+- title: Calendar
+  url: /calendar/
 - title: Join
   url: https://www.guildofstudents.com/studentgroups/societies/photosoc/
   new_tab: true
