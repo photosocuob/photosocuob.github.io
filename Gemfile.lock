@@ -281,6 +281,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-redirect-from
   monophase
   tzinfo (~> 1.2)
   tzinfo-data
