@@ -1,6 +1,1 @@
 events:
-  - title: "Lickey Hills Country Park"
-    date: "Sun 5th Dec"
-    time: "11:00"
-    poster: "lickey-hills.jpg" # expect to be in /assets/event-posters/
-    post_url: "2021/12/01/lickey-hills"
